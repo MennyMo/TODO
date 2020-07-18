@@ -30,6 +30,7 @@ ul {
 li {
     list-style: none;
     width: 70%;
+    font-size: 20px;
     font-family: Helvetica;
     padding: 10px 20px;
     color: rgb(255, 102, 0);
@@ -55,13 +56,14 @@ li>button {
 input {
     border-radius: 5px;
     min-width: 65%;
-    padding: 10px;
+    padding: 15px;
     border: none;
 }
 
 button {
     border: none;
     padding: 11px;
+    font-size: 20px;
     font-family: Helvetica;
     border-radius: 5px;
     color: #ffffff;
