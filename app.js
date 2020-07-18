@@ -41,7 +41,7 @@ function addListAfterEnter(event){
 input.addEventListener("keypress", addListAfterEnter);
 button.addEventListener("click", addListAfterClick);
 
-function clear() {
+function clearList() {
     let clearBtn = document.getElementsByTagName('li');
     if (clearBtn.style.visibility === 'hidden') {
         clearBtn.style.visibility = 'visible';
