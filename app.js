@@ -43,9 +43,9 @@ button.addEventListener("click", addListAfterClick);
 
 function myFunction() {
     let clearButton = document.getElementById('hide');
-    if (x.style.visibility === 'hidden') {
-        x.style.visibility = 'visible';
+    if (clearButton.style.visibility === 'hidden') {
+        clearButton.style.visibility = 'visible';
     } else {
-        x.style.visibility = 'hidden';
+        clearButton.style.visibility = 'hidden';
     }
 }
