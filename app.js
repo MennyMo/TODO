@@ -17,6 +17,7 @@ function createListElement(){
     li.addEventListener("click", Completed);
 
     let deleteButton = document.createElement("button");
+    deleteButton.appendChild(document.createTextNode("X"));
 }
 function addListAfterClick(){
         if (inputLength() > 0) {
