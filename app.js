@@ -1,2 +1,3 @@
 let input = document.getElementById("myInput");
-let ul = document.getElementsByTagName("ul")
+let ul = document.querySelector("ul");
+let item = document.getElementsByTagName("li");
