@@ -5,7 +5,9 @@ html {
     background-image: linear-gradient(to right top, #c56d09 0%, rgb(200, 90, 5) 100%);
 }
 
-
+h1{
+    text-align: center;
+}
 input {
     border: none;
     width: 50%;
