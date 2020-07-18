@@ -5,4 +5,6 @@ let button = document.getElementsById("myBtn");
 
 function createElement(){
     let li = document.createElement("li");
+    li.appendChild(document.createTextNode(input.value));
+    ul.appendChild(li)
 }
