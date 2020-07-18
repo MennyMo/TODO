@@ -12,5 +12,7 @@ function createElement(){
 }
 
 function addListAFterClick(){
-    if
+    if (input.value.length > 0){
+        createElement();
+    }
 }
