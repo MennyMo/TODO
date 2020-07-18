@@ -39,6 +39,14 @@ li {
     background: floralwhite;
 }
 
+li>button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #025f70;
+    font-weight: 800;
+}
 
 /* */
 
