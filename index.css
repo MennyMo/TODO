@@ -38,7 +38,7 @@ nav ul li a:hover {
     color: rgba(0, 35, 122, 0.7);
 }
 
-.addBtn {
+#myBtn {
     border: none;
     padding: 5px 15px;
     border-radius: 5px;
@@ -52,7 +52,7 @@ nav ul li a:hover {
     font-weight: normal;
 }
 
-#addBtn:hover {
+#myBtn:hover {
     background-color: #02798F;
     color: #FFCD5D;
 }
