@@ -6,7 +6,7 @@ html {
 }
 
 nav {
-    min-width: 50%;
+    width: 50%;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
     padding: 60px 0;
@@ -43,8 +43,7 @@ input {
     width: 50%;
     padding: 10px;
     border-radius: 5px;
-
-    /* margin-left: 330px;*/
+    margin-left: 330px;
 }
 
 #myBtn {
