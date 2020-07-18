@@ -61,6 +61,6 @@ input {
 }
 
 #myBtn:hover {
-    background-color: #02798F;
-    color: #FFCD5D;
+    background-color: rgb(224, 132, 10);
+    color: #ffffff;
 }
