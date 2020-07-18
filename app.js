@@ -23,7 +23,7 @@ function createListElement(){
     deleteButton.addEventListener("click", deleteListItem);
 
     function deleteListItem(){
-
+        li.classList.add("delete");
     }
 }
 function addListAfterClick(){
