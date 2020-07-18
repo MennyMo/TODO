@@ -3,6 +3,9 @@ let button = document.getElementById("myBtn");
 let ul = document.querySelector("ul");
 let item = document.getElementsByTagName("li");
 
+function inputLength() {
+    return input.value.length;
+} 
 
 function createElement(){
     let li = document.createElement("li");
