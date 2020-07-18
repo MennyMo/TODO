@@ -20,10 +20,10 @@ function createListElement(){
     deleteButton.appendChild(document.createTextNode("X"));
     li.appendChild(deleteButton);
 
-    deleteButton.addEventListener("click", deleteAfterClick);
+    deleteButton.addEventListener("click", deleteListItem);
 
-    function deleteAfterClick(){
-        
+    function deleteListItem(){
+
     }
 }
 function addListAfterClick(){
