@@ -39,3 +39,12 @@ input {
     background-color: rgb(224, 132, 10);
     color: #ffffff;
 }
+
+.done {
+    background: #51DF70 !important;
+    color: #00891E;
+}
+
+.delete {
+    display: none;
+}
