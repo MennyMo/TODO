@@ -9,3 +9,5 @@ function createElement(){
     ul.appendChild(li);
     input.value="";
 }
+
+input.addEventListener('click', createElement());
