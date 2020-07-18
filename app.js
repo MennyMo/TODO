@@ -20,4 +20,4 @@ function addListAFterClick(){
     }
 }
 
-input.addEventListener("click", addListAFterClick());
+input.addEventListener("click", addListAFterClick);
