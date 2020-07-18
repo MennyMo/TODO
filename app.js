@@ -19,3 +19,5 @@ function addListAFterClick(){
         createElement();
     }
 }
+
+input.addEventListener("click", addListAFterClick());
