@@ -42,7 +42,7 @@ input.addEventListener("keypress", addListAfterEnter);
 button.addEventListener("click", addListAfterClick);
 
 function myFunction() {
-    let clearButton = document.getElementById('hide');
+    let clearButton = document.getElementsByTagName('li');
     if (clearButton.style.visibility === 'hidden') {
         clearButton.style.visibility = 'visible';
     } else {
