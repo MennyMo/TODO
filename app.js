@@ -11,11 +11,9 @@ function createListElement(){
     ul.appendChild(li);
     input.value = "";
 }
-function addButton(){
-    
-}
-button.addEventListener("click", function(){
-    if(inputLength() > 0) {
-        createListElement();
+function addListAfterClick(){
+        if (inputLength() > 0) {
+            createListElement();
+        }
     }
-})
+button.addEventListener("click", addListAfterClick);
