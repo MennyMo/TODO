@@ -40,10 +40,10 @@ nav ul li a:hover {
 
 input {
     border-radius: 5px;
-    min-width: 45%;
+    min-width: 50%;
     padding: 10px;
     border: none;
-    margin-left: 370px;
+    margin-left: 330px;
 }
 
 #myBtn {
