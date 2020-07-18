@@ -2,7 +2,7 @@
 
 html {
     height: 100%;
-    background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%);
+    background-image: linear-gradient(to right top, #c56d09 0%, rgb(200, 90, 5) 100%);
 }
 
 nav {
@@ -48,7 +48,7 @@ input {
 
 #myBtn {
     border: none;
-    padding:10px;
+    padding: 10px;
     border-radius: 5px;
     color: #ffffff;
     background-color: rgb(230, 100, 10);
