@@ -7,5 +7,6 @@ input.addEventListener("click", function(){
         let li = document.createElement("li");
         li.appendChild(document.createTextNode(input.value));
         ul.appendChild(li);
+        input.value="";
     }
 })
