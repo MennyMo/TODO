@@ -5,11 +5,15 @@ html {
     background-image: linear-gradient(to right top, #c56d09 0%, rgb(200, 90, 5) 100%);
 }
 
-h1{
+h1 {
     text-align: center;
-    font-size: 20px
+    font-size: 20px;
     color: #ffffff;
+    background-color: #924e01;
+    max-width: 50%;
+    justify-content: center;
 }
+
 input {
     border: none;
     width: 50%;
