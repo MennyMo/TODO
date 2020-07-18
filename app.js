@@ -15,6 +15,8 @@ function createListElement(){
         li.classList.toggle("done");
     }
     li.addEventListener("click", Completed);
+
+    let deleteButton = document.createElement("button");
 }
 function addListAfterClick(){
         if (inputLength() > 0) {
