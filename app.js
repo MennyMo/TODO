@@ -40,3 +40,12 @@ function addListAfterEnter(event){
 
 input.addEventListener("keypress", addListAfterEnter);
 button.addEventListener("click", addListAfterClick);
+
+function myFunction() {
+    let clearButton = document.getElementById('hide');
+    if (x.style.visibility === 'hidden') {
+        x.style.visibility = 'visible';
+    } else {
+        x.style.visibility = 'hidden';
+    }
+}
