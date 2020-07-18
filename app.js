@@ -10,6 +10,11 @@ function createListElement(){
     li.appendChild(document.createTextNode(input.value));
     ul.appendChild(li);
     input.value = "";
+
+    function Completed(){
+        li.classList.toggle("done");
+    }
+    li.addEventListener("click", Completed);
 }
 function addListAfterClick(){
         if (inputLength() > 0) {
