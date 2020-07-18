@@ -4,5 +4,5 @@ let item = document.getElementsByTagName("li");
 let button = document.getElementsById("myBtn");
 
 function createElement(){
-    let li = 
+    let li = document.createElement("li");
 }
