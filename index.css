@@ -48,10 +48,10 @@ input {
 
 #myBtn {
     border: none;
-    padding: 5px 15px;
+    padding:10px;
     border-radius: 5px;
-    color: #04A1BF;
-    background-color: #025F70;
+    color: #ffffff;
+    background-color: rgb(228, 110, 13);
     transition: all 0.75s ease;
     -webkit-transition: all 0.75s ease;
     -moz-transition: all 0.75s ease;
