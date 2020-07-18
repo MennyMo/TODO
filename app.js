@@ -16,4 +16,11 @@ function addListAfterClick(){
             createListElement();
         }
     }
+
+function addListAfterEnter(event){
+    if (inputLength() > 0 && event.which === 13) {
+        createListElement();
+    }
+} 
+    
 button.addEventListener("click", addListAfterClick);
