@@ -41,11 +41,11 @@ function addListAfterEnter(event){
 input.addEventListener("keypress", addListAfterEnter);
 button.addEventListener("click", addListAfterClick);
 
-function clearList() {
-    let clearButton = document.getElementsById('myUl');
-    if (clearButton.style.visibility === 'hidden') {
-        clearButton.style.visibility = 'visible';
+function clear() {
+    let clearBtn = document.getElementsByTagName('li');
+    if (clearBtn.style.visibility === 'hidden') {
+        clearBtn.style.visibility = 'visible';
     } else {
-        clearButton.style.visibility = 'hidden';
+        clearBtn.style.visibility = 'hidden';
     }
 }
