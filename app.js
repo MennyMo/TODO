@@ -11,4 +11,6 @@ function createElement(){
     input.value="";
 }
 
-input.addEventListener('click', createElement());
+function addListAFterClick(){
+    if
+}
