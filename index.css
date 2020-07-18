@@ -39,9 +39,6 @@ li {
     background: floralwhite;
 }
 
-li:hover {
-    background: #76CFE0;
-}
 
 /* */
 
@@ -66,8 +63,8 @@ input {
 }
 
 .done {
-    background: #ffffff !important;
-    color: rgb(255, 102, 0);
+    background: rgb(255, 102, 0) !important;
+    color: #ffffff;
     text-decoration: line-through;
 }
 
