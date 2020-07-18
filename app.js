@@ -22,5 +22,6 @@ function addListAfterEnter(event){
         createListElement();
     }
 } 
-    
+
+input.addEventListener("keypress", addListAfterEnter);
 button.addEventListener("click", addListAfterClick);
